@@ -1,21 +1,26 @@
-// Piromante — mago de fuego con Bastón de Brasas (garra de hueso que sujeta una brasa).
+// Piromante — hechicero del desierto: shemagh rojo y blanco con agal, bisht con ribete
+// dorado sobre thobe claro y fajín rojo. Bastón de Brasas (garra de hueso con brasa).
 // Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno se añade solo.
 const legend = {
-  r: '6e2727', // túnica/sombrero oscuro
-  R: 'b33831', // túnica/sombrero
-  L: 'ea4f36', // brillo de la túnica
-  M: 'ae2334', // manga
-  c: '45293f', // forro de la capa
-  b: '4c3e24', // cinturón de cuero
+  Q: 'c7dcd0', // shemagh claro
+  X: 'b33831', // dibujo rojo del shemagh
+  A: '3e3546', // agal (cordón)
+  T: 'c7dcd0', // thobe
+  t: '9babb2', // thobe en sombra
+  N: '9e4539', // bisht (capa) rojo óxido
+  n: '7a3045', // bisht en sombra
+  M: '7a3045', // manga
+  R: 'b33831', // fajín
+  r: '6e2727', // nudo del fajín
   Y: 'f9c22b', // oro / núcleo de la brasa
   O: 'f79617', // oro en sombra
-  S: 'fdcbb0', // piel
-  s: 'fca790', // piel en sombra
+  S: 'e6904e', // piel
+  s: 'cd683d', // piel en sombra
   E: '2e222f', // ojos
-  H: '3e3546', // pelo
-  B: '625565', // botas
-  W: '9e4539', // madera del bastón
-  w: '7a3045', // madera en sombra
+  D: '3e3546', // barba
+  B: '9e4539', // sandalias
+  W: '966c6c', // madera del bastón
+  w: '694f62', // madera en sombra
   K: 'c7dcd0', // garra de hueso
   k: '9babb2', // hueso en sombra
   F: 'fb6b1d', // llama
@@ -24,27 +29,27 @@ const legend = {
 
 const body = [
   '..................F',
-  '......rr.........FYF',
-  '......rRr......kFYfYFk',
-  '.......rRr.....KOFYFOK',
-  '.......rRLr....KkOFOkK',
-  '........rRLr....kKKKk',
-  '.......rRRRLr....kk',
-  '......rOYYYYYr...Ww',
-  '....rrRRRRRRRRrr.Ww',
-  '......HSSSSSSs...Ww',
-  '......HSSESSES...Ww',
-  '......HSSESSES...Ww',
-  '.......sSSSSs....Ww',
-  '...c.rRLYYLRr....Ww',
-  '...crLRRRRRRrr...Ww',
-  '...crLRRRRRrRMMSSWw',
-  '...crLRRRRRrMMMs.Ww',
-  '..ccrObbYbbbOr...Ww',
-  '..ccrLRRRrRRRr...Ww',
-  '..crLRRRRRrRRRr..Ww',
-  '..crLRRRRRrRRRRr.Ww',
-  '...rOOOOOOOOOOOr.Ww',
+  '.................FYF',
+  '........QQQQ...kFYfYFk',
+  '.......QXQQXQ..KOFYFOK',
+  '......AAAAAAAA.KkOFOkK',
+  '......QQXQQXQQ..kKKKk',
+  '.....QQXssssssQ..kk',
+  '.....QQQSSSSSSQ..Ww',
+  '.....QXQSSESESQ..Ww',
+  '.....QQQSSSSSs...Ww',
+  '....QQXQSDDDDS...Ww',
+  '....QQQQ.sDDDs...Ww',
+  '....QXQQ..DD.....Ww',
+  '.....nNYTTTYNn...Ww',
+  '....nNNYTTTYNNn..Ww',
+  '....nNNYTTTYNNMSSWw',
+  '....nNNYTTTYNMMs.Ww',
+  '....nNNRRrRRNNn..Ww',
+  '....nNNYTTTYNNn..Ww',
+  '...nNNNYTTTYNNNn.Ww',
+  '...nNNNYTTtYNNNn.Ww',
+  '...nnnnYTTtYnnnn.Ww',
 ];
 
 // 3 fotogramas de caminar: neutro, pasos abiertos, pies juntos.
