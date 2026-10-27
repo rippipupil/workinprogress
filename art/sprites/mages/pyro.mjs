@@ -1,70 +1,112 @@
-// Piromante — hechicero del desierto: shemagh rojo y blanco con agal, bisht con ribete
-// dorado sobre thobe claro y fajín rojo. Bastón de Brasas (garra de hueso con brasa).
-// Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno se añade solo.
+// Piromante — explorador del desierto encapuchado, con pelo afro, y una lámpara mágica de la
+// que brota fuego. Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno
+// se añade solo. Los 3 fotogramas de caminar cambian pies y llama.
 const legend = {
-  Q: 'c7dcd0', // shemagh claro
-  X: 'b33831', // dibujo rojo del shemagh
-  A: '3e3546', // agal (cordón)
-  T: 'c7dcd0', // thobe
-  t: '9babb2', // thobe en sombra
-  N: '9e4539', // bisht (capa) rojo óxido
-  n: '7a3045', // bisht en sombra
-  M: '7a3045', // manga
+  N: '7a3045', // capucha y capa granate
+  n: '45293f', // capucha y capa en sombra
+  L: '9e4539', // brillo de la capucha
+  M: '45293f', // manga
+  H: '3e3546', // pelo afro
+  h: '625565', // brillo del pelo
+  S: 'cd683d', // piel
+  s: '9e4539', // piel en sombra
+  E: '2e222f', // ojos
+  T: 'ab947a', // túnica de arena
+  t: '966c6c', // túnica en sombra
   R: 'b33831', // fajín
   r: '6e2727', // nudo del fajín
-  Y: 'f9c22b', // oro / núcleo de la brasa
+  Y: 'f9c22b', // oro (ribete, lámpara) / núcleo de la llama
   O: 'f79617', // oro en sombra
-  S: 'e6904e', // piel
-  s: 'cd683d', // piel en sombra
-  E: '2e222f', // ojos
-  D: '3e3546', // barba
-  B: '9e4539', // sandalias
-  W: '966c6c', // madera del bastón
-  w: '694f62', // madera en sombra
-  K: 'c7dcd0', // garra de hueso
-  k: '9babb2', // hueso en sombra
+  B: '694f62', // botas
   F: 'fb6b1d', // llama
-  f: 'fbff86', // brillo de la llama
+  f: 'fbff86', // brillo
 };
-
-const body = [
-  '..................F',
-  '.................FYF',
-  '........QQQQ...kFYfYFk',
-  '.......QXQQXQ..KOFYFOK',
-  '......AAAAAAAA.KkOFOkK',
-  '......QQXQQXQQ..kKKKk',
-  '.....QQXssssssQ..kk',
-  '.....QQQSSSSSSQ..Ww',
-  '.....QXQSSESESQ..Ww',
-  '.....QQQSSSSSs...Ww',
-  '....QQXQSDDDDS...Ww',
-  '....QQQQ.sDDDs...Ww',
-  '....QXQQ..DD.....Ww',
-  '.....nNYTTTYNn...Ww',
-  '....nNNYTTTYNNn..Ww',
-  '....nNNYTTTYNNMSSWw',
-  '....nNNYTTTYNMMs.Ww',
-  '....nNNRRrRRNNn..Ww',
-  '....nNNYTTTYNNn..Ww',
-  '...nNNNYTTTYNNNn.Ww',
-  '...nNNNYTTtYNNNn.Ww',
-  '...nnnnYTTtYnnnn.Ww',
-];
-
-// 3 fotogramas de caminar: neutro, pasos abiertos, pies juntos.
-const feet = [
-  '.....BB....BB',
-  '....BB......BB',
-  '......BB.BB',
-];
 
 export default {
   key: 'mage_pyro',
   name: 'Piromante',
   size: [24, 24],
   legend,
-  frames: feet.map((f) => [...body, f]),
+  frames: [
+  [
+    '',
+    '......nNNNn',
+    '....nNNNNNNLn',
+    '...nNNNNNNNNLn',
+    '...nNNNNHhHhHHN',
+    '...nNNNHhHHhHhHN',
+    '...nNNNHHhHHhHHh',
+    '...nNNHhHHSSSSSH',
+    '...nNNHHhHSESESN',
+    '...nNNNHHHSSSSSN',
+    '...nNNNNHHsSSSsN',
+    '...nNNNNNNNsssN......F',
+    '....nNNNNNNNNn.......Ff',
+    '....nnNYTTTYNn........F',
+    '...nnNNYTTTYNNn....Y..O',
+    '...nnNNYTTTYNNMn..OYO.Y',
+    '...nnNNRRrRRNMMSSYYfYYY',
+    '...nnNNYTTTYNNn..OYYYO',
+    '...nnNNYTTTYNNn...OOO',
+    '...nNNNYTTTYNNNn',
+    '...nNNNYTTtYNNNn',
+    '...nnnnYTTtYnnnn',
+    '.....BB....BB',
+    '',
+  ],
+  [
+    '',
+    '......nNNNn',
+    '....nNNNNNNLn',
+    '...nNNNNNNNNLn',
+    '...nNNNNHhHhHHN',
+    '...nNNNHhHHhHhHN',
+    '...nNNNHHhHHhHHh',
+    '...nNNHhHHSSSSSH',
+    '...nNNHHhHSESESN',
+    '...nNNNHHHSSSSSN',
+    '...nNNNNHHsSSSsN......F',
+    '...nNNNNNNNsssN......fF',
+    '....nNNNNNNNNn.......FY',
+    '....nnNYTTTYNn........F',
+    '...nnNNYTTTYNNn....Y..O',
+    '...nnNNYTTTYNNMn..OYO.Y',
+    '...nnNNRRrRRNMMSSYYfYYY',
+    '...nnNNYTTTYNNn..OYYYO',
+    '...nnNNYTTTYNNn...OOO',
+    '...nNNNYTTTYNNNn',
+    '...nNNNYTTtYNNNn',
+    '...nnnnYTTtYnnnn',
+    '....BB......BB',
+    '',
+  ],
+  [
+    '',
+    '......nNNNn',
+    '....nNNNNNNLn',
+    '...nNNNNNNNNLn',
+    '...nNNNNHhHhHHN',
+    '...nNNNHhHHhHhHN',
+    '...nNNNHHhHHhHHh',
+    '...nNNHhHHSSSSSH',
+    '...nNNHHhHSESESN',
+    '...nNNNHHHSSSSSN',
+    '...nNNNNHHsSSSsN',
+    '...nNNNNNNNsssN......F',
+    '....nNNNNNNNNn.......Ff',
+    '....nnNYTTTYNn........F',
+    '...nnNNYTTTYNNn....Y..O',
+    '...nnNNYTTTYNNMn..OYO.Y',
+    '...nnNNRRrRRNMMSSYYfYYY',
+    '...nnNNYTTTYNNn..OYYYO',
+    '...nnNNYTTTYNNn...OOO',
+    '...nNNNYTTTYNNNn',
+    '...nNNNYTTtYNNNn',
+    '...nnnnYTTtYnnnn',
+    '......BB.BB',
+    '',
+  ],
+  ],
   anim: [0, 1, 0, 2],
   fps: 6,
 };
