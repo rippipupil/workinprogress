@@ -1,11 +1,12 @@
-// Piromante — explorador del desierto encapuchado, con pelo afro, y una lámpara mágica de la
-// que brota fuego. Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno
+// Piromante — explorador del desierto con capucha fina, pelo afro, pañuelo rojo, túnica de
+// arena, fajín y pantalón; lleva una lámpara mágica de la que brota fuego. Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno
 // se añade solo. Los 3 fotogramas de caminar cambian pies y llama.
 const legend = {
   N: '7a3045', // capucha y capa granate
   n: '45293f', // capucha y capa en sombra
+  P: '694f62', // pantalón
+  p: '45293f', // pantalón en sombra
   L: '9e4539', // brillo de la capucha
-  M: '45293f', // manga
   H: '3e3546', // pelo afro
   h: '625565', // brillo del pelo
   S: 'cd683d', // piel
@@ -13,11 +14,11 @@ const legend = {
   E: '2e222f', // ojos
   T: 'ab947a', // túnica de arena
   t: '966c6c', // túnica en sombra
-  R: 'b33831', // fajín
-  r: '6e2727', // nudo del fajín
+  R: 'b33831', // pañuelo y fajín
+  r: '6e2727', // nudos
   Y: 'f9c22b', // oro (ribete, lámpara) / núcleo de la llama
   O: 'f79617', // oro en sombra
-  B: '694f62', // botas
+  B: '4c3e24', // botas
   F: 'fb6b1d', // llama
   f: 'fbff86', // brillo
 };
@@ -30,80 +31,80 @@ export default {
   frames: [
   [
     '',
-    '......nNNNn',
-    '....nNNNNNNLn',
-    '...nNNNNNNNNLn',
-    '...nNNNNHhHhHHN',
-    '...nNNNHhHHhHhHN',
-    '...nNNNHHhHHhHHh',
-    '...nNNHhHHSSSSSH',
-    '...nNNHHhHSESESN',
-    '...nNNNHHHSSSSSN',
-    '...nNNNNHHsSSSsN',
-    '...nNNNNNNNsssN......F',
-    '....nNNNNNNNNn.......Ff',
-    '....nnNYTTTYNn........F',
-    '...nnNNYTTTYNNn....Y..O',
-    '...nnNNYTTTYNNMn..OYO.Y',
-    '...nnNNRRrRRNMMSSYYfYYY',
-    '...nnNNYTTTYNNn..OYYYO',
-    '...nnNNYTTTYNNn...OOO',
-    '...nNNNYTTTYNNNn',
-    '...nNNNYTTtYNNNn',
-    '...nnnnYTTtYnnnn',
-    '.....BB....BB',
+    '.......nNNn',
+    '.....nNNNNLn',
+    '....nNHhHHhHNn',
+    '....nHhHHhHhHHN',
+    '....nHHhHHhHHhHH',
+    '....nHhHHHSSSSSH',
+    '....nHHhHHSESESN',
+    '....nNHHHHSSSSSN',
+    '....nNNHHHsSSSsN',
+    '.....nNN..sSSs',
+    '.....nN....ss........F',
+    '....nNRRRRrRRR.......Ff',
+    '....nNTRRRRRRTT.......F',
+    '...nNTTTTYTTTTt....Y..O',
+    '...nNTTTTYTTTttt..OYO.Y',
+    '...nNRRRRrRRRRtSSYYfYYY',
+    '...nNTTTTYTTTt...OYYYO',
+    '...nNTTTTYTTTt....OOO',
+    '....nPPPPpPPP',
+    '.....PPP..PPP',
+    '.....PPp..PPp',
+    '.....BBB..BBB',
     '',
   ],
   [
     '',
-    '......nNNNn',
-    '....nNNNNNNLn',
-    '...nNNNNNNNNLn',
-    '...nNNNNHhHhHHN',
-    '...nNNNHhHHhHhHN',
-    '...nNNNHHhHHhHHh',
-    '...nNNHhHHSSSSSH',
-    '...nNNHHhHSESESN',
-    '...nNNNHHHSSSSSN',
-    '...nNNNNHHsSSSsN......F',
-    '...nNNNNNNNsssN......fF',
-    '....nNNNNNNNNn.......FY',
-    '....nnNYTTTYNn........F',
-    '...nnNNYTTTYNNn....Y..O',
-    '...nnNNYTTTYNNMn..OYO.Y',
-    '...nnNNRRrRRNMMSSYYfYYY',
-    '...nnNNYTTTYNNn..OYYYO',
-    '...nnNNYTTTYNNn...OOO',
-    '...nNNNYTTTYNNNn',
-    '...nNNNYTTtYNNNn',
-    '...nnnnYTTtYnnnn',
-    '....BB......BB',
+    '.......nNNn',
+    '.....nNNNNLn',
+    '....nNHhHHhHNn',
+    '....nHhHHhHhHHN',
+    '....nHHhHHhHHhHH',
+    '....nHhHHHSSSSSH',
+    '....nHHhHHSESESN',
+    '....nNHHHHSSSSSN',
+    '....nNNHHHsSSSsN',
+    '.....nNN..sSSs........F',
+    '.....nN....ss........fF',
+    '....nNRRRRrRRR.......FY',
+    '....nNTRRRRRRTT.......F',
+    '...nNTTTTYTTTTt....Y..O',
+    '...nNTTTTYTTTttt..OYO.Y',
+    '...nNRRRRrRRRRtSSYYfYYY',
+    '...nNTTTTYTTTt...OYYYO',
+    '...nNTTTTYTTTt....OOO',
+    '....nPPPPpPPP',
+    '.....PPP..PPP',
+    '.....PPp..PPp',
+    '....BBB....BBB',
     '',
   ],
   [
     '',
-    '......nNNNn',
-    '....nNNNNNNLn',
-    '...nNNNNNNNNLn',
-    '...nNNNNHhHhHHN',
-    '...nNNNHhHHhHhHN',
-    '...nNNNHHhHHhHHh',
-    '...nNNHhHHSSSSSH',
-    '...nNNHHhHSESESN',
-    '...nNNNHHHSSSSSN',
-    '...nNNNNHHsSSSsN',
-    '...nNNNNNNNsssN......F',
-    '....nNNNNNNNNn.......Ff',
-    '....nnNYTTTYNn........F',
-    '...nnNNYTTTYNNn....Y..O',
-    '...nnNNYTTTYNNMn..OYO.Y',
-    '...nnNNRRrRRNMMSSYYfYYY',
-    '...nnNNYTTTYNNn..OYYYO',
-    '...nnNNYTTTYNNn...OOO',
-    '...nNNNYTTTYNNNn',
-    '...nNNNYTTtYNNNn',
-    '...nnnnYTTtYnnnn',
-    '......BB.BB',
+    '.......nNNn',
+    '.....nNNNNLn',
+    '....nNHhHHhHNn',
+    '....nHhHHhHhHHN',
+    '....nHHhHHhHHhHH',
+    '....nHhHHHSSSSSH',
+    '....nHHhHHSESESN',
+    '....nNHHHHSSSSSN',
+    '....nNNHHHsSSSsN',
+    '.....nNN..sSSs',
+    '.....nN....ss........F',
+    '....nNRRRRrRRR.......Ff',
+    '....nNTRRRRRRTT.......F',
+    '...nNTTTTYTTTTt....Y..O',
+    '...nNTTTTYTTTttt..OYO.Y',
+    '...nNRRRRrRRRRtSSYYfYYY',
+    '...nNTTTTYTTTt...OYYYO',
+    '...nNTTTTYTTTt....OOO',
+    '....nPPPPpPPP',
+    '.....PPP..PPP',
+    '.....PPp..PPp',
+    '......BBBBBB',
     '',
   ],
   ],
