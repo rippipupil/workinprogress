@@ -1,0 +1,26 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Sprites</title>
+<style>
+body{margin:0;padding:16px;background:#2e222f;color:#c7dcd0;font:14px system-ui,sans-serif}
+h1{font-size:18px;margin:0 0 12px}.grid{display:flex;flex-wrap:wrap;gap:16px}
+.card{background:#3e3546;border-radius:8px;padding:12px}.card h2{font-size:14px;margin:0 0 8px}
+canvas{image-rendering:pixelated;background:repeating-conic-gradient(#4a4454 0 25%,#3a3444 0 50%) 0 0/16px 16px;display:block}
+.row{display:flex;gap:12px;align-items:flex-end}.lbl{font-size:12px;opacity:.7;margin-top:4px}
+</style></head><body><h1>Sprites (×8)</h1><div class="grid" id="g"></div>
+<script>
+const items=[{"key":"mage_pyro","name":"Piromante","w":24,"h":24,"n":3,"anim":[0,1,0,2],"fps":6,"data":"iVBORw0KGgoAAAANSUhEUgAAAEgAAAAYCAYAAABZY7uwAAABXElEQVR4nO2XMW7CMBiFuQUTSxcGJCgDFV26wcrUC1RiqsQBOEBnJkbWrki9ASs34QIIQZXqRf0tY/nHsQ2Ch7D0lMSJvw/HThxqNaW0nzoFop2Xa06dD7Wl5aPhpNkso0FQv/9sBH/EPfKN4Kff9UoEvi++kiTs/KBEBLtVK3uUWflHgs3o5UiC7XZeL+HY5naAkV9Jshi8FtPnQbKAmm/DJbYkV0DLl8YAYfrhOXUjkhQBNd9eHu0774tcFyNg5xsJ8tYbFr/rpTeH71n2CLPyjcQW4NjdzxGw8+k7cPEbJBJMRW16nmOVoeW7SySWR8R+weWOMC1f+35wVwCMRupLlJlfWYCpeskO3CTfB/cJRBIrYOfTd+Bxg67J1+CaQCRVBex8I8AfvKpJ6QAr30iQj/dxGTnW6pDYR0DjaOdi+T7WKWfyh6LbyFcn9bnskDeG72OFnCn8R/kvf30dx4crnP9jAAAAAElFTkSuQmCC"}];
+const S=8,g=document.getElementById('g');
+for(const it of items){
+  const card=document.createElement('div');card.className='card';
+  card.innerHTML='<h2>'+it.name+' <small>('+it.key+')</small></h2>';
+  const row=document.createElement('div');row.className='row';card.appendChild(row);g.appendChild(card);
+  const img=new Image();img.src='data:image/png;base64,'+it.data;
+  img.onload=()=>{
+    const mk=(lbl)=>{const w=document.createElement('div');const c=document.createElement('canvas');c.width=it.w*S;c.height=it.h*S;
+      const x=c.getContext('2d');x.imageSmoothingEnabled=false;w.appendChild(c);const l=document.createElement('div');l.className='lbl';l.textContent=lbl;w.appendChild(l);row.appendChild(w);return x;};
+    const anim=mk('animado');
+    for(let i=0;i<it.n;i++){mk('f'+i).drawImage(img,i*it.w,0,it.w,it.h,0,0,it.w*S,it.h*S);}
+    let k=0;setInterval(()=>{const f=it.anim[k++%it.anim.length];anim.clearRect(0,0,it.w*S,it.h*S);anim.drawImage(img,f*it.w,0,it.w,it.h,0,0,it.w*S,it.h*S);},1000/it.fps);
+  };
+}
+</script></body></html>

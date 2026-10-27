@@ -1,0 +1,16 @@
+[
+  {
+    "key": "mage_pyro",
+    "file": "mage_pyro.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
+  }
+]
