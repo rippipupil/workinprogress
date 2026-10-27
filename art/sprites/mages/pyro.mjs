@@ -1,4 +1,4 @@
-// Piromante — explorador del desierto con capucha fina, pelo afro, pañuelo rojo, túnica de
+// Piromante — explorador del desierto con la capucha echada hacia atrás, pelo afro, pañuelo rojo, túnica de
 // arena, fajín y pantalón; lleva una lámpara mágica de la que brota fuego. Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno
 // se añade solo. Los 3 fotogramas de caminar cambian pies y llama.
 const legend = {
@@ -32,12 +32,12 @@ export default {
   frames: [
   [
     '',
-    '....nN.LLNNN',
-    '....nLLLLNNNNNn',
-    '....nLLNNKKKKKKNn',
-    '....nLLNKHhHHhHhH',
-    '....nLNNKHHhHHhHH',
-    '....nNNNKhHHhHHhH',
+    '....nNL..HhHhH',
+    '....nLLKHhHHhHH',
+    '....nLLKHHhHHhHh',
+    '....nLNKhHHhHHhHH',
+    '....nNNKHHhHHhHHh',
+    '....nNNKHhHHhHHhH',
     '....nNNnKHSSSSSH',
     '....nNNnKHSESES',
     '....nNnnnKSSSSS',
@@ -58,12 +58,12 @@ export default {
   ],
   [
     '',
-    '....nN.LLNNN',
-    '....nLLLLNNNNNn',
-    '....nLLNNKKKKKKNn',
-    '....nLLNKHhHHhHhH',
-    '....nLNNKHHhHHhHH',
-    '....nNNNKhHHhHHhH',
+    '....nNL..HhHhH',
+    '....nLLKHhHHhHH',
+    '....nLLKHHhHHhHh',
+    '....nLNKhHHhHHhHH',
+    '....nNNKHHhHHhHHh',
+    '....nNNKHhHHhHHhH',
     '....nNNnKHSSSSSH',
     '....nNNnKHSESES',
     '....nNnnnKSSSSS',
@@ -84,12 +84,12 @@ export default {
   ],
   [
     '',
-    '....nN.LLNNN',
-    '....nLLLLNNNNNn',
-    '....nLLNNKKKKKKNn',
-    '....nLLNKHhHHhHhH',
-    '....nLNNKHHhHHhHH',
-    '....nNNNKhHHhHHhH',
+    '....nNL..HhHhH',
+    '....nLLKHhHHhHH',
+    '....nLLKHHhHHhHh',
+    '....nLNKhHHhHHhHH',
+    '....nNNKHHhHHhHHh',
+    '....nNNKHhHHhHHhH',
     '....nNNnKHSSSSSH',
     '....nNNnKHSESES',
     '....nNnnnKSSSSS',
