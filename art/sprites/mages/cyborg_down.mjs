@@ -1,4 +1,4 @@
-// Cíborg de frente (caminar hacia abajo): a tu izquierda la mitad de acero, a tu derecha la humana; gafas grandes, sonrisa, chaqueta de cuero y cadena de oro.
+// Cíborg de frente (caminar hacia abajo): a tu izquierda la mitad de cromo, a tu derecha la humana; gafas de sol, diente de oro, chaqueta roja y cadena.
 // '.' = transparente; el contorno se añade solo.
 import { legend } from './cyborg_side.mjs';
 
@@ -14,10 +14,10 @@ export default {
       '..........hHHh',
       '........MlMHHsss',
       '.......MMMMHHSSSs',
-      '.......mGgqGGgqGs',
-      '.......mGLGGGGGGs',
+      '......GGWGGGGGWGGG',
+      '.......GGGGmSGGGG',
       '.......mMMMMSSSSs',
-      '........mmTTTESs',
+      '........mmTTYTEs',
       '........mMMMSSs',
       '.........mMMSs',
       '.......kJ.MMSS.Jk',
@@ -40,10 +40,10 @@ export default {
       '..........hHHh',
       '........MlMHHsss',
       '.......MMMMHHSSSs',
-      '.......mGgqGGgqGs',
-      '.......mGLGGGGGGs',
+      '......GGWGGGGGWGGG',
+      '.......GGGGmSGGGG',
       '.......mMMMMSSSSs',
-      '........mmTTTESs',
+      '........mmTTYTEs',
       '........mMMMSSs',
       '.........mMMSs',
       '.......kJ.MMSS.Jk',
@@ -66,10 +66,10 @@ export default {
       '..........hHHh',
       '........MlMHHsss',
       '.......MMMMHHSSSs',
-      '.......mGgqGGgqGs',
-      '.......mGLGGGGGGs',
+      '......GGWGGGGGWGGG',
+      '.......GGGGmSGGGG',
       '.......mMMMMSSSSs',
-      '........mmTTTESs',
+      '........mmTTYTEs',
       '........mMMMSSs',
       '.........mMMSs',
       '.......kJ.MMSS.Jk',

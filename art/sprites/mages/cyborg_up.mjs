@@ -1,4 +1,4 @@
-// Cíborg de espaldas (caminar hacia arriba): cresta hasta la nuca y un gran sol dorado en la espalda de la chaqueta.
+// Cíborg de espaldas (caminar hacia arriba): cresta hasta la nuca, patillas de las gafas y un gran sol dorado en la chaqueta roja.
 // '.' = transparente; el contorno se añade solo.
 import { legend } from './cyborg_side.mjs';
 
@@ -14,7 +14,7 @@ export default {
       '..........hHHh',
       '........sssHHMlM',
       '.......sSSSHHMMMM',
-      '.......GSSShHMoMG',
+      '......GSSSShHMoMmG',
       '.......SSSSHHMMMm',
       '.......sSSShHMMmm',
       '........sSShHMmm',
@@ -40,7 +40,7 @@ export default {
       '..........hHHh',
       '........sssHHMlM',
       '.......sSSSHHMMMM',
-      '.......GSSShHMoMG',
+      '......GSSSShHMoMmG',
       '.......SSSSHHMMMm',
       '.......sSSShHMMmm',
       '........sSShHMmm',
@@ -66,7 +66,7 @@ export default {
       '..........hHHh',
       '........sssHHMlM',
       '.......sSSSHHMMMM',
-      '.......GSSShHMoMG',
+      '......GSSSShHMoMmG',
       '.......SSSSHHMMMm',
       '.......sSSShHMMmm',
       '........sSShHMmm',

@@ -1,6 +1,6 @@
 // Cíborg — mago de Acero y Luz, mitad humano y mitad cíborg (estilizado, nada realista),
-// con mucha actitud: cresta rubia, gafas de sol grandes con reflejos, sonrisa chulesca,
-// chaqueta de cuero negra con cuello levantado y tachuelas, camiseta blanca, cadena de oro
+// pinta de roquero/gánster: cresta rubia, gafas de sol negras, sonrisa con diente de oro,
+// chaqueta de cuero roja con cuello levantado y tachuelas, camiseta blanca, cadena de oro
 // con colgante de luz, vaqueros rotos y zapatillas con suela luminosa. La mitad derecha del
 // cuerpo es de acero y la mano de acero emite luz. Vista de lado: mira a la derecha y enseña
 // la mitad de acero, con la cara humana asomando por delante (el juego la voltea).
@@ -11,21 +11,19 @@ export const legend = {
   S: 'fdcbb0', // piel
   s: 'fca790', // piel en sombra
   E: '2e222f', // comisura de la sonrisa
-  G: '2e222f', // montura de las gafas de sol
-  g: '8fd3ff', // reflejo azul de las gafas
-  q: 'f04f78', // reflejo rosa de las gafas
-  M: '9babb2', // acero
-  m: '7f708a', // acero en sombra
-  l: 'c7dcd0', // brillo del acero / tachuelas
-  o: '625565', // remaches y juntas
+  G: '2e222f', // gafas de sol negras
+  M: 'c7dcd0', // cromo
+  m: '9babb2', // cromo en sombra
+  l: 'ffffff', // brillo del cromo / tachuelas
+  o: '7f708a', // remaches y juntas
   L: 'fbff86', // luz
-  W: 'ffffff', // núcleo de luz
-  J: '3e3546', // chaqueta de cuero negra
-  j: '313638', // cuero en sombra
-  k: '625565', // borde y brillo del cuero
+  W: 'ffffff', // núcleo de luz / brillo de las gafas
+  J: 'e83b3b', // chaqueta de cuero roja
+  j: 'b33831', // cuero en sombra
+  k: 'ae2334', // borde del cuero
   T: 'ffffff', // camiseta blanca / dientes / zapatillas
   t: 'c7dcd0', // camiseta en sombra / roto del vaquero
-  Y: 'f9c22b', // cadena y sol dorados
+  Y: 'f9c22b', // cadena, diente y sol dorados
   D: '4d65b4', // vaqueros
   d: '484a77', // vaqueros en sombra
 };
@@ -43,9 +41,9 @@ export default {
       '.......MMMMMMSS',
       '.......mMMlMMSS',
       '.......mMoMMMSS',
-      '.......mMMGGgqG',
-      '.......mMMGGLGGG',
-      '.......mMMoMTTE',
+      '.......mMGGGGWGG',
+      '.......mMMMMGGGG',
+      '.......mMMoMTYT',
       '.......mmMMMmss',
       '........kmMMss',
       '.......kJoMo',
@@ -69,9 +67,9 @@ export default {
       '.......MMMMMMSS',
       '.......mMMlMMSS',
       '.......mMoMMMSS',
-      '.......mMMGGgqG',
-      '.......mMMGGLGGG',
-      '.......mMMoMTTE',
+      '.......mMGGGGWGG',
+      '.......mMMMMGGGG',
+      '.......mMMoMTYT',
       '.......mmMMMmss',
       '........kmMMss',
       '.......kJoMo',
@@ -95,9 +93,9 @@ export default {
       '.......MMMMMMSS',
       '.......mMMlMMSS',
       '.......mMoMMMSS',
-      '.......mMMGGgqG',
-      '.......mMMGGLGGG',
-      '.......mMMoMTTE',
+      '.......mMGGGGWGG',
+      '.......mMMMMGGGG',
+      '.......mMMoMTYT',
       '.......mmMMMmss',
       '........kmMMss',
       '.......kJoMo',
