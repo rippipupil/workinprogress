@@ -19,4 +19,15 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 - **Sin interacciones** entre elementos: ni combos ni tabla de ventajas.
 - **Un mago puede tener 2 elementos.**
 - Cuántos elementos tendrá el MVP: **por decidir**.
-- Lista de elementos: *pendiente de que el autor la indique.*
+- Lista de elementos (10), en el orden en que los dio el autor:
+  1. Fuego
+  2. Agua
+  3. Tierra
+  4. Arena
+  5. Psíquico
+  6. Fantasma
+  7. Sangre
+  8. Hielo
+  9. Eléctrico
+  10. Viento
+- Pendiente: qué elemento o elementos lleva cada mago y cuántos magos habrá.
