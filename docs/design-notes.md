@@ -30,4 +30,10 @@ Decisiones que el autor va tomando y que mandan sobre la spec
   8. Hielo
   9. Eléctrico
   10. Viento
-- Pendiente: qué elemento o elementos lleva cada mago y cuántos magos habrá.
+- Los magos y sus elementos los va definiendo el autor uno a uno.
+
+## Magos
+
+| Mago | Elementos | Aspecto | Estado |
+|---|---|---|---|
+| Piromante | Fuego + Arena | Explorador del desierto con capucha a medio echar, pelo afro, pañuelo rojo, túnica de arena y lámpara mágica de fuego | Sprite aprobado (v9) |
