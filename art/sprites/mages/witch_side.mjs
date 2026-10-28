@@ -1,33 +1,36 @@
-// Bruja del viento — chica joven, bruja de Viento + Psíquico. Pelo rosa al viento, capita
-// menta, vestido morado, medias a rayas y botitas. No camina: vuela sentada en su escoba y
-// lleva un libro de hechicería abierto que desprende brillo psíquico.
-// Los 3 fotogramas son de vuelo (balanceo arriba y abajo, estelas de viento y chispas).
+// Bruja del viento — bruja de Viento + Psíquico, joven pero con aire maduro. Pelo largo y liso
+// lila rosado con flequillo recto, ojos con eyeliner, labios rosas; chaqueta azul marino con
+// hombreras y cuello alto blanco, blusa negra, colgante verde azulado, guantes blancos,
+// pantalón oscuro y botas. No camina: vuela sentada en su escoba con un libro de hechicería
+// que desprende brillo psíquico. Los 3 fotogramas son de vuelo (balanceo, estelas, chispas).
 // Vista de lado: mira a la derecha (el juego la voltea). '.' = transparente; el contorno
 // se añade solo.
 export const legend = {
-  H: 'ed8099', // pelo rosa
-  h: 'cf657f', // pelo rosa en sombra
+  H: 'eaaded', // pelo lila rosado
+  h: 'a884f3', // pelo en sombra (lavanda)
   S: 'fdcbb0', // piel
   s: 'fca790', // piel en sombra
-  q: 'f68181', // mejillas
-  E: '2e222f', // ojos
-  W: 'ffffff', // brillo de los ojos / páginas del libro
-  C: '8ff8e2', // capita menta
-  c: '30e1b9', // capita en sombra
-  P: '905ea9', // vestido morado
-  p: '6b3e75', // vestido en sombra
-  X: 'eaaded', // raya clara de las medias
-  K: '45293f', // botitas
+  q: 'ed8099', // sombra de ojos y colorete
+  L: 'cf657f', // labios
+  E: '2e222f', // eyeliner
+  a: 'a884f3', // iris violeta / chispa psíquica
+  A: 'eaaded', // chispa psíquica brillante
+  W: 'ffffff', // páginas del libro
+  w: 'c7dcd0', // cuello blanco / estela de viento
+  g: 'c7dcd0', // guantes blancos
+  N: '484a77', // chaqueta azul marino
+  n: '323353', // chaqueta en sombra / pantalón
+  l: '4d65b4', // brillo de la chaqueta
+  k: '3e3546', // blusa negra
+  T: '0eaf9b', // colgante verde azulado
+  K: '45293f', // botas
   B: '0eaf9b', // tapas del libro
   b: '0b8a8f', // lomo del libro
-  a: 'a884f3', // chispa psíquica
-  A: 'eaaded', // chispa psíquica brillante
   y: 'e6904e', // paja de la escoba en sombra
   Y: 'fbb954', // paja de la escoba
   r: 'b33831', // atadura de la escoba
   O: '966c6c', // palo de la escoba
   o: '694f62', // palo en sombra
-  w: 'c7dcd0', // estela de viento
 };
 
 export default {
@@ -41,22 +44,22 @@ export default {
       '',
       '.........HHHH',
       '.......hHHHHHHh',
-      '.....hhHHHHHHHHH',
+      '......hHHHHHHHHH',
+      '.hhhHHHHHHHHHHHH',
+      '..hhHHHHHHHHSEaS',
       '...hhHHHHHHHSSSS',
-      '....hHHHHHHHSWES',
-      '.....hHHHHHHSEES',
-      '......hHHHHHSqSS',
-      '........hHHHsSSs',
-      '............s......A',
-      '.........cCCCC...a',
-      '..w.....cCPPPPc.WWbWW',
-      '........cPPPPPPSBBBBB',
-      '.......pPPPPPPP',
-      '.yYY..pPPPPPPPPp',
+      '....hhHHHHHHSqLs',
+      '......hHHHHHsSs',
+      '......hHHHHwws.....A',
+      '.....hHnNNwwk....a',
+      'w....hHnNlNNkT..WWbWW',
+      '.....hnNNlNNNNggBBBBB',
+      '......nNNNNNNN',
+      '.yYY..nNNNNNNNNn',
       'yYYYYYrOOOOOOOOOOOOo',
-      '.yYY.......XP',
-      '...........PX',
-      'ww.........XP',
+      '.yYY.......nN',
+      '...........nN',
+      'ww.........nN',
       '...........KKK',
       '',
       '',
@@ -66,22 +69,22 @@ export default {
       '',
       '.........HHHH',
       '.......hHHHHHHh',
-      '.....hhHHHHHHHHH',
+      '......hHHHHHHHHH',
+      '.hhhHHHHHHHHHHHH',
+      '..hhHHHHHHHHSEaS',
       '...hhHHHHHHHSSSS',
-      '....hHHHHHHHSWES',
-      '.....hHHHHHHSEES',
-      '......hHHHHHSqSS',
-      '........hHHHsSSs',
-      '............s.....A',
-      '...ww....cCCCC......a',
-      '........cCPPPPc.WWbWW',
-      '........cPPPPPPSBBBBB',
-      '.......pPPPPPPP',
-      '.yYY..pPPPPPPPPp',
+      '....hhHHHHHHSqLs',
+      '......hHHHHHsSs',
+      '......hHHHHwws....A',
+      '.ww..hHnNNwwk.......a',
+      '.....hHnNlNNkT..WWbWW',
+      '.....hnNNlNNNNggBBBBB',
+      '......nNNNNNNN',
+      '.yYY..nNNNNNNNNn',
       'yYYYYYrOOOOOOOOOOOOo',
-      '.yYY.......XP',
-      '...........PX',
-      '.w.........XP',
+      '.yYY.......nN',
+      '...........nN',
+      '.w.........nN',
       '...........KKK',
     ],
     [
@@ -90,22 +93,22 @@ export default {
       '',
       '.........HHHH',
       '.......hHHHHHHh',
-      '.....hhHHHHHHHHH',
+      '......hHHHHHHHHH',
+      '.hhhHHHHHHHHHHHH',
+      '..hhHHHHHHHHSEaS',
       '...hhHHHHHHHSSSS',
-      '....hHHHHHHHSWES',
-      '.....hHHHHHHSEES',
-      '......hHHHHHSqSS',
-      '........hHHHsSSs',
-      '............s...a',
-      '.........cCCCC.....A',
-      '.ww.....cCPPPPc.WWbWW',
-      '........cPPPPPPSBBBBB',
-      '.......pPPPPPPP',
-      '.yYY..pPPPPPPPPp',
+      '....hhHHHHHHSqLs',
+      '......hHHHHHsSs',
+      '......hHHHHwws..a',
+      '.....hHnNNwwk......A',
+      '.....hHnNlNNkT..WWbWW',
+      'ww...hnNNlNNNNggBBBBB',
+      '......nNNNNNNN',
+      '.yYY..nNNNNNNNNn',
       'yYYYYYrOOOOOOOOOOOOo',
-      '.yYY.......XP',
-      '...........PX',
-      '...........XP',
+      '.yYY.......nN',
+      '...........nN',
+      '...........nN',
       '..w........KKK',
     ],
   ],
