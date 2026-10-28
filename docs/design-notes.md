@@ -9,6 +9,7 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 - Paleta **Resurrect 64**.
 - **Contorno negro de 1 px**, que se añade automáticamente con el color `#2e222f`.
 - **3 fotogramas de caminar**, en el ciclo 0-1-0-2.
+- **3 vistas por personaje:** `_side` (de lado, mirando a la derecha; se voltea para ir a la izquierda), `_down` (de frente, para ir hacia abajo) y `_up` (de espaldas, para ir hacia arriba). Cada vista tiene sus 3 fotogramas.
 - Las fuentes de los sprites están en `art/sprites/**.mjs` y se construyen con `node scripts/sprites/build.mjs`.
 - Aprobados: **Piromante** (v9, explorador del desierto con capucha, pelo afro y lámpara mágica de fuego).
 
@@ -36,5 +37,5 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 
 | Mago | Elementos | Aspecto | Estado |
 |---|---|---|---|
-| Piromante | Fuego + Arena | Explorador del desierto con capucha a medio echar, pelo afro, pañuelo rojo, túnica de arena y lámpara mágica de fuego | Sprite aprobado (v9) |
-| Mago reptiliano (nombre provisional) | Psíquico | Hechicero oscuro reptiliano sin gorro, escamas en varios verdes, ojo psíquico morado, túnica negra con ribete morado, cola y báculo cuya punta fragmentada abraza un orbe hasta la mitad | Sprite aprobado (v2) |
+| Piromante | Fuego + Arena | Explorador del desierto con capucha a medio echar, pelo afro, pañuelo rojo, túnica de arena y lámpara mágica de fuego | Lado aprobado (v9); frente y espaldas en borrador |
+| Mago reptiliano (nombre provisional) | Psíquico | Hechicero oscuro reptiliano sin gorro, escamas en varios verdes, ojo psíquico morado, túnica negra con ribete morado, cola y báculo cuya punta fragmentada abraza un orbe hasta la mitad | Lado aprobado (v2); frente y espaldas pendientes |

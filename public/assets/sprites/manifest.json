@@ -1,7 +1,35 @@
 [
   {
-    "key": "mage_pyro",
-    "file": "mage_pyro.png",
+    "key": "mage_pyro_down",
+    "file": "mage_pyro_down.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
+  },
+  {
+    "key": "mage_pyro_side",
+    "file": "mage_pyro_side.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
+  },
+  {
+    "key": "mage_pyro_up",
+    "file": "mage_pyro_up.png",
     "frameWidth": 24,
     "frameHeight": 24,
     "frames": 3,

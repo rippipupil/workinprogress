@@ -1,7 +1,7 @@
 // Piromante — explorador del desierto con la capucha a medio echar (tapa nuca y coronilla), pelo afro, pañuelo rojo, túnica de
 // arena, fajín y pantalón; lleva una lámpara mágica de la que brota fuego. Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno
 // se añade solo. Los 3 fotogramas de caminar cambian pies y llama.
-const legend = {
+export const legend = {
   N: '7a3045', // capucha y capa granate
   n: '45293f', // capucha y capa en sombra
   P: '694f62', // pantalón
@@ -25,8 +25,8 @@ const legend = {
 };
 
 export default {
-  key: 'mage_pyro',
-  name: 'Piromante',
+  key: 'mage_pyro_side',
+  name: 'Piromante (lado)',
   size: [24, 24],
   legend,
   frames: [
