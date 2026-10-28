@@ -41,4 +41,4 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 |---|---|---|---|
 | Piromante | Fuego + Arena | Explorador del desierto con capucha a medio echar, pelo afro, pañuelo rojo, túnica de arena y lámpara mágica de fuego | Aprobado: lado (v9), frente y espaldas |
 | Mago reptiliano (nombre provisional) | Psíquico | Hechicero oscuro reptiliano sin gorro, escamas en varios verdes, ojo psíquico morado, túnica negra con ribete morado, cola y báculo cuya punta fragmentada abraza un orbe hasta la mitad | Aprobado: lado (v2), frente y espaldas |
-| Cíborg (nombre provisional) | Acero + Luz | Mitad humano y mitad cíborg, estilizado: mitad de acero con ojo de luz, pelo castaño rojizo, abrigo azul marino con ribete dorado, núcleo de luz en el pecho y mano de acero que emite luz | Borrador v1 (3 vistas) |
+| Cíborg (nombre provisional) | Acero + Luz | Mitad humano y mitad cíborg, estilizado: mitad de acero con ojo de luz, cresta rubia, gafas de sol, abrigo azul marino con ribete dorado, núcleo de luz en el pecho y mano de acero que emite luz | Borrador v2 (3 vistas) |

@@ -1,15 +1,17 @@
 // Cíborg — mago de Acero y Luz, mitad humano y mitad cíborg (estilizado, nada realista).
 // La mitad derecha del cuerpo es de acero (cabeza, brazo y pierna); la izquierda es humana.
-// Abrigo azul marino con ribete dorado y núcleo de luz en el pecho; la mano de acero emite luz.
+// Cresta rubia y gafas de sol. Abrigo azul marino con ribete dorado y núcleo de luz en el pecho; la mano de acero emite luz.
 // Vista de lado: mira a la derecha y enseña la mitad de acero, con la cara humana asomando
 // por delante (el juego la voltea).
 // '.' = transparente; el contorno se añade solo.
 export const legend = {
-  H: '9e4539', // pelo castaño rojizo
-  h: 'cd683d', // brillo del pelo
+  H: 'fbb954', // cresta rubia
+  h: 'e6904e', // cresta en sombra
   S: 'fdcbb0', // piel
   s: 'fca790', // piel en sombra
-  E: '2e222f', // ojo / boca
+  E: '2e222f', // boca
+  G: '2e222f', // gafas de sol
+  g: '8fd3ff', // reflejo de las gafas
   M: '9babb2', // acero
   m: '7f708a', // acero en sombra
   l: 'c7dcd0', // brillo del acero
@@ -31,13 +33,13 @@ export default {
   frames: [
     [
       '',
-      '',
-      '........HHhH',
-      '.......HhHHHH',
-      '.......HMMMMMHH',
+      '........hH.Hh',
+      '.......HHhHHhH',
+      '.......MMMMMMSS',
       '.......mMMlMMSS',
       '.......mMoMMMSS',
-      '.......mMMMMLWS',
+      '.......mMMMMMSS',
+      '.......mMMGGLGG',
       '.......mMMoMMSs',
       '.......mmMMMmEs',
       '........mmMMss',
@@ -57,13 +59,13 @@ export default {
     ],
     [
       '',
-      '',
-      '........HHhH',
-      '.......HhHHHH',
-      '.......HMMMMMHH',
+      '........hH.Hh',
+      '.......HHhHHhH',
+      '.......MMMMMMSS',
       '.......mMMlMMSS',
       '.......mMoMMMSS',
-      '.......mMMMMLWS',
+      '.......mMMMMMSS',
+      '.......mMMGGLGG',
       '.......mMMoMMSs',
       '.......mmMMMmEs',
       '........mmMMss',
@@ -83,13 +85,13 @@ export default {
     ],
     [
       '',
-      '',
-      '........HHhH',
-      '.......HhHHHH',
-      '.......HMMMMMHH',
+      '........hH.Hh',
+      '.......HHhHHhH',
+      '.......MMMMMMSS',
       '.......mMMlMMSS',
       '.......mMoMMMSS',
-      '.......mMMMMLWS',
+      '.......mMMMMMSS',
+      '.......mMMGGLGG',
       '.......mMMoMMSs',
       '.......mmMMMmEs',
       '........mmMMss',

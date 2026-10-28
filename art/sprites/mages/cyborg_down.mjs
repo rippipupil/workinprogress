@@ -1,4 +1,4 @@
-// Cíborg de frente (caminar hacia abajo): a tu izquierda la mitad de acero con ojo de luz, a tu derecha la humana.
+// Cíborg de frente (caminar hacia abajo): cresta rubia, gafas de sol; a tu izquierda la mitad de acero, a tu derecha la humana.
 // '.' = transparente; el contorno se añade solo.
 import { legend } from './cyborg_side.mjs';
 
@@ -10,12 +10,12 @@ export default {
   frames: [
     [
       '',
-      '',
-      '........MMMMHHhH',
-      '.......MlMMMHhHHH',
-      '.......MMMMoHHhHH',
-      '.......mMMMMSSSSH',
-      '.......mMLWMSSESs',
+      '...........Hh',
+      '..........hHHh',
+      '........MlMHHsss',
+      '.......MMMMHHSSSs',
+      '.......mMMMMSSSSs',
+      '.......mGLGGGGgGs',
       '.......mMMMMSSSSs',
       '........mmmmsESs',
       '........mMMMSSs',
@@ -36,12 +36,12 @@ export default {
     ],
     [
       '',
-      '',
-      '........MMMMHHhH',
-      '.......MlMMMHhHHH',
-      '.......MMMMoHHhHH',
-      '.......mMMMMSSSSH',
-      '.......mMLWMSSESs',
+      '...........Hh',
+      '..........hHHh',
+      '........MlMHHsss',
+      '.......MMMMHHSSSs',
+      '.......mMMMMSSSSs',
+      '.......mGLGGGGgGs',
       '.......mMMMMSSSSs',
       '........mmmmsESs',
       '........mMMMSSs',
@@ -62,12 +62,12 @@ export default {
     ],
     [
       '',
-      '',
-      '........MMMMHHhH',
-      '.......MlMMMHhHHH',
-      '.......MMMMoHHhHH',
-      '.......mMMMMSSSSH',
-      '.......mMLWMSSESs',
+      '...........Hh',
+      '..........hHHh',
+      '........MlMHHsss',
+      '.......MMMMHHSSSs',
+      '.......mMMMMSSSSs',
+      '.......mGLGGGGgGs',
       '.......mMMMMSSSSs',
       '........mmmmsESs',
       '........mMMMSSs',
