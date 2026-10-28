@@ -3,7 +3,7 @@
 // Ojo psíquico morado. Lleva un báculo de madera oscura cuya punta se abre en fragmentos
 // que abrazan un orbe psíquico hasta la mitad.
 // Mira a la derecha (el juego lo voltea). '.' = transparente; el contorno se añade solo.
-const legend = {
+export const legend = {
   d: '165a4c', // escamas en sombra
   g: '239063', // escamas
   G: '1ebc73', // escamas claras
@@ -23,8 +23,8 @@ const legend = {
   w: 'eaaded', // brillo psíquico
 };
 export default {
-  key: 'mage_reptile',
-  name: 'Mago reptiliano',
+  key: 'mage_reptile_side',
+  name: 'Mago reptiliano (lado)',
   size: [24, 24],
   legend,
   frames: [
