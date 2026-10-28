@@ -12,5 +12,19 @@
       2
     ],
     "fps": 6
+  },
+  {
+    "key": "mage_reptile",
+    "file": "mage_reptile.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
   }
 ]
