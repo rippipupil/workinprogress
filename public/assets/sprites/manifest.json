@@ -1,5 +1,47 @@
 [
   {
+    "key": "mage_cyborg_down",
+    "file": "mage_cyborg_down.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
+  },
+  {
+    "key": "mage_cyborg_side",
+    "file": "mage_cyborg_side.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
+  },
+  {
+    "key": "mage_cyborg_up",
+    "file": "mage_cyborg_up.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 3,
+    "anim": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "fps": 6
+  },
+  {
     "key": "mage_pyro_down",
     "file": "mage_pyro_down.png",
     "frameWidth": 24,
