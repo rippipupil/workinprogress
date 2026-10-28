@@ -37,4 +37,4 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 | Mago | Elementos | Aspecto | Estado |
 |---|---|---|---|
 | Piromante | Fuego + Arena | Explorador del desierto con capucha a medio echar, pelo afro, pañuelo rojo, túnica de arena y lámpara mágica de fuego | Sprite aprobado (v9) |
-| Mago reptiliano (nombre provisional) | Psíquico | Hechicero oscuro reptiliano sin gorro, escamas en varios verdes, ojo psíquico morado, túnica negra con ribete morado, cola y báculo cuya punta fragmentada abraza un orbe hasta la mitad | Borrador v2 |
+| Mago reptiliano (nombre provisional) | Psíquico | Hechicero oscuro reptiliano sin gorro, escamas en varios verdes, ojo psíquico morado, túnica negra con ribete morado, cola y báculo cuya punta fragmentada abraza un orbe hasta la mitad | Sprite aprobado (v2) |
