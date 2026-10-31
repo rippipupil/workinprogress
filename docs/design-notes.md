@@ -21,7 +21,7 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 - **Sin interacciones** entre elementos: ni combos ni tabla de ventajas.
 - **Un mago puede tener 2 elementos.**
 - Cuántos elementos tendrá el MVP: **por decidir**.
-- Lista de elementos (12), en el orden en que los dio el autor:
+- Lista de elementos (13), en el orden en que los dio el autor:
   1. Fuego
   2. Agua
   3. Tierra
@@ -34,6 +34,7 @@ Decisiones que el autor va tomando y que mandan sobre la spec
   10. Viento
   11. Acero
   12. Luz
+  13. Planta
 - Los magos y sus elementos los va definiendo el autor uno a uno.
 
 ## Magos
@@ -44,3 +45,4 @@ Decisiones que el autor va tomando y que mandan sobre la spec
 | Mago reptiliano (nombre provisional) | Psíquico | Hechicero oscuro reptiliano sin gorro, escamas en varios verdes, ojo psíquico morado, túnica negra con ribete morado, cola y báculo cuya punta fragmentada abraza un orbe hasta la mitad | Aprobado: lado (v2), frente y espaldas |
 | Cíborg (nombre provisional) | Acero + Luz | Mitad humano y mitad cíborg, estilo roquero/gánster nada tenebroso: cara humana con placa de cromo en sien y pómulo, oreja de cromo, cresta rubia, gafas de sol negras, sonrisa con diente de oro, chaqueta de cuero roja con cuello levantado y tachuelas, camiseta blanca, cadena de oro con colgante de luz, sol dorado en la espalda, vaqueros rotos, zapatillas con suela luminosa y mano de cromo que emite luz | Aprobado: lado, frente y espaldas (v5) |
 | Bruja del viento (nombre provisional) | Viento + Psíquico | Bruja joven con aire maduro (inspirada en el estilo general de una referencia del autor, sin copiarla): pelo largo y liso lila con flequillo recto, ojos sencillos y labios rosas, chaqueta azul marino con hombreras y cuello alto blanco, blusa negra, colgante verde azulado, guantes blancos, pantalón y botas; no camina, vuela sentada en su escoba (sus 3 fotogramas son de vuelo) con un gran libro de hechicería de tapas magenta y esquinas doradas que desprende brillo psíquico | Aprobada: lado, frente y espaldas (v3) |
+| Árbol humanoide (nombre provisional) | Tierra + Planta | Árbol que camina: copa frondosa con una flor rosa, cara de corteza con ojos que brillan, barba de musgo, piedras en los hombros, brazos de rama que acaban en hojas y raíces por pies | Borrador v1 (3 vistas) |
