@@ -1,4 +1,4 @@
-// Vampiro de espaldas (caminar hacia arriba): capucha, cuello alto y capa con bajo de alas de murciélago.
+// Vampiro de espaldas (caminar hacia arriba): sombrero de ala ancha, cuello alto y capa con bajo de alas de murciélago.
 // '.' = transparente; el contorno se añade solo.
 import { legend } from './vampire_side.mjs';
 
@@ -10,13 +10,13 @@ export default {
   frames: [
     [
       '',
-      '...........rr',
       '.........rRRRRr',
-      '........rRRRRRRr',
-      '.......rRLRRRRLRr',
-      '.......rRRRRRRRRr',
-      '......CrRRRRRRRRrC',
-      '......CrRLRRRRLRrC',
+      '.........rLRRRr',
+      '.........rRRRRr',
+      '........rkkYYkkr',
+      '....rrRRRRRRRRRRRRrr',
+      '......CckkkkkkkkcC',
+      '......CcCkkkkkkCcC',
       '......CcCCCCCCCCcC',
       '.d....cCCCCCCCCCCc',
       '......rRRRrRRrRRRr',
@@ -36,13 +36,13 @@ export default {
     ],
     [
       '',
-      '...........rr',
       '.........rRRRRr',
-      '........rRRRRRRr',
-      '.......rRLRRRRLRr',
-      '.......rRRRRRRRRr',
-      '......CrRRRRRRRRrC',
-      '......CrRLRRRRLRrC',
+      '.........rLRRRr',
+      '.........rRRRRr',
+      '........rkkYYkkr',
+      '....rrRRRRRRRRRRRRrr',
+      '......CckkkkkkkkcC',
+      '......CcCkkkkkkCcC',
       '......CcCCCCCCCCcC',
       'D.....cCCCCCCCCCCc',
       '..e...rRRRrRRrRRRr',
@@ -62,13 +62,13 @@ export default {
     ],
     [
       '',
-      '...........rr',
       '.........rRRRRr',
-      '........rRRRRRRr',
-      '.......rRLRRRRLRr',
-      '.......rRRRRRRRRr',
-      '......CrRRRRRRRRrC',
-      '......CrRLRRRRLRrC',
+      '.........rLRRRr',
+      '.........rRRRRr',
+      '........rkkYYkkr',
+      '....rrRRRRRRRRRRRRrr',
+      '......CckkkkkkkkcC',
+      '......CcCkkkkkkCcC',
       '......CcCCCCCCCCcC',
       '......cCCCCCCCCCCc',
       '.d....rRRRrRRrRRRr',

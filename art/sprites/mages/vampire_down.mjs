@@ -1,4 +1,4 @@
-// Vampiro de frente (caminar hacia abajo): capucha y cuello alto rojos, ojos rojos en la sombra, colmillos y gotas de sangre flotando junto a la mano.
+// Vampiro de frente (caminar hacia abajo): sombrero rojo de ala ancha, ojos rojos en la sombra, colmillos y gotas de sangre flotando junto a la mano.
 // '.' = transparente; el contorno se añade solo.
 import { legend } from './vampire_side.mjs';
 
@@ -10,13 +10,13 @@ export default {
   frames: [
     [
       '',
-      '...........rr',
       '.........rRRRRr',
-      '........rRRRRRRr',
-      '.......rRLRRRRLRr',
-      '.......rRhhhhhhRr',
-      '......CrRhhhhhhRrC',
-      '......CrRhEppEhRrC',
+      '.........rLRRRr',
+      '.........rRRRRr',
+      '........rkkYYkkr',
+      '....rrRRRRRRRRRRRRrr',
+      '......CchhhhhhhhcC',
+      '......CchhEppEhhcC',
       '......CcCCFCCFCCcC',
       '......cCCCCCCCCCCc...d',
       '......rRRRrYYrRRRr',
@@ -36,13 +36,13 @@ export default {
     ],
     [
       '',
-      '...........rr',
       '.........rRRRRr',
-      '........rRRRRRRr',
-      '.......rRLRRRRLRr',
-      '.......rRhhhhhhRr',
-      '......CrRhhhhhhRrC',
-      '......CrRhEppEhRrC',
+      '.........rLRRRr',
+      '.........rRRRRr',
+      '........rkkYYkkr',
+      '....rrRRRRRRRRRRRRrr',
+      '......CchhhhhhhhcC',
+      '......CchhEppEhhcC',
       '......CcCCFCCFCCcC',
       '......cCCCCCCCCCCc....D',
       '......rRRRrYYrRRRr..e',
@@ -62,13 +62,13 @@ export default {
     ],
     [
       '',
-      '...........rr',
       '.........rRRRRr',
-      '........rRRRRRRr',
-      '.......rRLRRRRLRr',
-      '.......rRhhhhhhRr',
-      '......CrRhhhhhhRrC',
-      '......CrRhEppEhRrC',
+      '.........rLRRRr',
+      '.........rRRRRr',
+      '........rkkYYkkr',
+      '....rrRRRRRRRRRRRRrr',
+      '......CchhhhhhhhcC',
+      '......CchhEppEhhcC',
       '......CcCCFCCFCCcC',
       '......cCCCCCCCCCCc',
       '......rRRRrYYrRRRr...d',
