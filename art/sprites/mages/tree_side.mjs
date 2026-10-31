@@ -19,6 +19,7 @@ export const legend = {
   k: '4c3e24', // nudo oscuro
   h: '3e3546', // hueco de la cara
   Y: 'd5e04b', // ojos que brillan
+  W: 'fbff86', // centro brillante de los ojos
   M: '547e64', // musgo
   m: '374e4a', // musgo en sombra
   R: '9babb2', // piedra
@@ -39,9 +40,9 @@ export default {
       '......bB.Bb',
       '.......bBBbgl',
       '........bBgGBb',
-      '........bBBhhh',
-      '........bBBhYh',
-      '.a......bBBhhh',
+      '........bBBhhhb',
+      '........bBBhYWb',
+      '.a......bBBhhhb',
       '.........bBBBb',
       '.........bBcBbbbb',
       '.....gGG..bcBB..GlGg',
@@ -65,9 +66,9 @@ export default {
       '......bB.Bb',
       '.......bBBbgl',
       '........bBgGBb',
-      '........bBBhhh',
-      '........bBBhYh',
-      '........bBBhhh',
+      '........bBBhhhb',
+      '........bBBhYWb',
+      '........bBBhhhb',
       '.........bBBBb',
       '.o.......bBcBbbbb',
       '.....gGG..bcBB..GlGg',
@@ -91,9 +92,9 @@ export default {
       '......bB.Bb',
       '.......bBBbgl',
       '........bBgGBb',
-      '........bBBhhh',
-      '........bBBhYh',
-      '........bBBhhh',
+      '........bBBhhhb',
+      '........bBBhYWb',
+      '........bBBhhhb',
       '.........bBBBb',
       '.........bBcBbbbb',
       '.....gGG..bcBB..GlGg',
