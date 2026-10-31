@@ -1,4 +1,4 @@
-// Árbol humanoide de frente (caminar hacia abajo): cuernos de rama, cara hueca con ojos que brillan, manos de matas de hojas y patas de raíz.
+// Árbol humanoide de frente (caminar hacia abajo): cuernos de rama, ojos que brillan sobre la corteza, manos de matas de hojas y patas de raíz.
 // '.' = transparente; el contorno se añade solo.
 import { legend } from './tree_side.mjs';
 
@@ -16,9 +16,9 @@ export default {
       '.......bB......Bb',
       '........bB.gl.Bb',
       '........bBgGlGBb',
-      '........bhhhhhhb',
-      '........bYWhhWYb',
-      '.a......bhhhhhhb',
+      '........bBBcBBBb',
+      '........bYWBBWYb',
+      '.a......bBBBcBBb',
       '.........bBBBBb',
       '.....bBbbbBBBBbbbBb',
       '..gGlG....bcBB....GlGg',
@@ -42,9 +42,9 @@ export default {
       '.......bB......Bb',
       '........bB.gl.Bb',
       '........bBgGlGBb',
-      '........bhhhhhhb',
-      '........bYWhhWYb.....o',
-      '........bhhhhhhb',
+      '........bBBcBBBb',
+      '........bYWBBWYb.....o',
+      '........bBBBcBBb',
       '.........bBBBBb',
       '.....bBbbbBBBBbbbBb',
       '..gGlG....bcBB....GlGg',
@@ -68,9 +68,9 @@ export default {
       '.......bB......Bb',
       '........bB.gl.Bb',
       '........bBgGlGBb',
-      '........bhhhhhhb',
-      '........bYWhhWYb',
-      '........bhhhhhhb',
+      '........bBBcBBBb',
+      '........bYWBBWYb',
+      '........bBBBcBBb',
       '.........bBBBBb.......l',
       '.....bBbbbBBBBbbbBb',
       '..gGlG....bcBB....GlGg',

@@ -1,5 +1,5 @@
 // Árbol humanoide — mago de Tierra + Planta: árbol embrujado y delgado. Cuernos de ramas
-// desnudas con matas de hojas en las puntas, cara hueca y oscura con ojos que brillan,
+// desnudas con matas de hojas en las puntas, cara de corteza con dos ojos que brillan,
 // brazos de rama que acaban en grandes matas de hojas con garras de raíz, una piedra
 // incrustada en el tronco y cuatro patas de raíz largas y abiertas (al caminar levanta un
 // par u otro; cae alguna hoja).
@@ -17,7 +17,6 @@ export const legend = {
   b: '694f62', // corteza en sombra
   c: 'ab947a', // vetas y nudos claros de la corteza
   k: '4c3e24', // nudo oscuro
-  h: '3e3546', // hueco de la cara
   Y: 'd5e04b', // ojos que brillan
   W: 'fbff86', // centro brillante de los ojos
   M: '547e64', // musgo
@@ -40,9 +39,9 @@ export default {
       '......bB.Bb',
       '.......bBBbgl',
       '........bBgGBb',
-      '........bBBhhhb',
-      '........bBBhYWb',
-      '.a......bBBhhhb',
+      '........bBBcBBb',
+      '........bBBBYWb',
+      '.a......bBcBBBb',
       '.........bBBBb',
       '.........bBcBbbbb',
       '.....gGG..bcBB..GlGg',
@@ -66,9 +65,9 @@ export default {
       '......bB.Bb',
       '.......bBBbgl',
       '........bBgGBb',
-      '........bBBhhhb',
-      '........bBBhYWb',
-      '........bBBhhhb',
+      '........bBBcBBb',
+      '........bBBBYWb',
+      '........bBcBBBb',
       '.........bBBBb',
       '.o.......bBcBbbbb',
       '.....gGG..bcBB..GlGg',
@@ -92,9 +91,9 @@ export default {
       '......bB.Bb',
       '.......bBBbgl',
       '........bBgGBb',
-      '........bBBhhhb',
-      '........bBBhYWb',
-      '........bBBhhhb',
+      '........bBBcBBb',
+      '........bBBBYWb',
+      '........bBcBBBb',
       '.........bBBBb',
       '.........bBcBbbbb',
       '.....gGG..bcBB..GlGg',
